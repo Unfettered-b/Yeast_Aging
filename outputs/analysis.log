@@ -1,0 +1,54 @@
+2026-03-17 12:49:20,295 - INFO - Loading expression data from /home/anirudh/yeast_aging/data/GSE210032_Log2NormCounts_1W-A37B43C45_H2_NoERCC_CSV.csv
+2026-03-17 12:49:20,344 - INFO - Loaded 5997 genes and 125 cells
+2026-03-17 12:49:20,344 - INFO - Parsing metadata from /home/anirudh/yeast_aging/GSE210032_family.xml
+2026-03-17 12:49:20,351 - INFO - Metadata parsed: 136 samples
+2026-03-17 12:49:20,354 - INFO - Computing per‑cell entropy
+2026-03-17 12:49:20,387 - INFO - ANOVA p=5.042e-02, Kruskal p=1.838e-03
+2026-03-17 12:49:20,388 - INFO - Comparing 10 high‑entropy vs 10 low‑entropy cells
+2026-03-17 12:49:20,392 - INFO - Comparing 45 late (t=36.0) vs 37 early (t=2.0) cells
+2026-03-17 12:49:24,269 - INFO - Running GO enrichment for entropy‑associated genes
+2026-03-17 12:49:24,270 - INFO - Querying g:Profiler...
+2026-03-17 12:49:25,172 - INFO - Running GO enrichment for time‑associated genes
+2026-03-17 12:49:25,172 - INFO - Querying g:Profiler...
+2026-03-17 12:49:26,239 - INFO - Querying g:Profiler...
+2026-03-17 12:53:32,874 - INFO - Loading expression data from /home/anirudh/yeast_aging/data/GSE210032_Log2NormCounts_1W-A37B43C45_H2_NoERCC_CSV.csv
+2026-03-17 12:53:32,926 - INFO - Loaded 5997 genes and 125 cells
+2026-03-17 12:53:32,926 - INFO - Parsing metadata from /home/anirudh/yeast_aging/GSE210032_family.xml
+2026-03-17 12:53:32,933 - INFO - Metadata parsed: 136 samples
+2026-03-17 12:53:32,936 - INFO - Computing per‑cell entropy
+2026-03-17 12:53:32,969 - INFO - ANOVA p=5.042e-02, Kruskal p=1.838e-03
+2026-03-17 12:53:32,969 - INFO - Comparing 10 high‑entropy vs 10 low‑entropy cells
+2026-03-17 12:53:32,973 - INFO - Comparing 45 late (t=36.0) vs 37 early (t=2.0) cells
+2026-03-17 12:53:32,981 - INFO - Querying g:Profiler for gene conversion...
+2026-03-17 12:53:36,084 - INFO - Running GO enrichment for entropy‑associated genes
+2026-03-17 12:53:36,084 - INFO - Querying g:Profiler for GO enrichment...
+2026-03-17 12:53:36,981 - INFO - Running GO enrichment for time‑associated genes
+2026-03-17 12:53:36,982 - INFO - Querying g:Profiler for GO enrichment...
+2026-03-17 12:53:38,058 - INFO - Querying g:Profiler for gene conversion...
+2026-03-17 12:53:38,792 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,794 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,820 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,821 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,880 - INFO - Saved outputs/entropy_box.png
+2026-03-17 12:53:38,907 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,909 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,924 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,926 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 12:53:38,983 - INFO - Saved outputs/cyto_entropy.png
+2026-03-17 12:53:39,065 - INFO - Saved outputs/variance.png
+2026-03-17 12:53:39,178 - INFO - Saved outputs/entropy_volcano.png
+2026-03-17 12:53:39,294 - INFO - Saved outputs/time_volcano.png
+2026-03-17 12:53:39,390 - INFO - Saved outputs/cyto_time_trends.png
+2026-03-17 12:53:39,548 - INFO - PDF report generated: outputs/entropy_report.pdf
+2026-03-17 12:53:39,548 - INFO - ==================================================
+2026-03-17 12:53:39,548 - INFO - ANALYSIS COMPLETE
+2026-03-17 12:53:39,548 - INFO - Outputs saved in /home/anirudh/yeast_aging/outputs
+2026-03-17 12:53:39,548 - INFO - Global entropy ANOVA p = 5.042e-02
+2026-03-17 12:53:39,549 - INFO - Number of significant genes (entropy DE, p<0.05): 250
+2026-03-17 12:53:39,549 - INFO - Number of significant genes (time DE, p<0.05): 1433
+2026-03-17 12:53:39,549 - INFO - Overlap of top 50 genes: 7
+2026-03-17 12:53:39,549 - INFO - Cytoskeleton gene classification:
+2026-03-17 12:53:39,549 - INFO - class
+background          17
+entropy_specific     1
+2026-03-17 12:53:39,549 - INFO - ==================================================

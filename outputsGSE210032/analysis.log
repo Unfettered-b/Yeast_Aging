@@ -1,0 +1,41 @@
+2026-03-17 13:11:16,786 - INFO - Loading expression data from /home/anirudh/yeast_aging/data/GSE210032_Log2NormCounts_1W-A37B43C45_H2_NoERCC_CSV.csv
+2026-03-17 13:11:16,846 - INFO - Loaded 5997 genes and 125 cells
+2026-03-17 13:11:16,847 - INFO - Parsing metadata from /home/anirudh/yeast_aging/GSE210032_family.xml
+2026-03-17 13:11:16,853 - INFO - Metadata parsed: 136 samples
+2026-03-17 13:11:16,856 - INFO - Computing per‑cell entropy
+2026-03-17 13:11:16,888 - INFO - ANOVA p=5.042e-02, Kruskal p=1.838e-03
+2026-03-17 13:11:16,888 - INFO - Comparing 10 high‑entropy vs 10 low‑entropy cells
+2026-03-17 13:11:16,893 - INFO - Comparing 45 late (t=36.0) vs 37 early (t=2.0) cells
+2026-03-17 13:11:16,900 - INFO - Querying g:Profiler for gene conversion...
+2026-03-17 13:11:19,819 - INFO - Running GO enrichment for entropy‑associated genes
+2026-03-17 13:11:19,819 - INFO - Querying g:Profiler for GO enrichment...
+2026-03-17 13:11:20,702 - INFO - Running GO enrichment for time‑associated genes
+2026-03-17 13:11:20,703 - INFO - Querying g:Profiler for GO enrichment...
+2026-03-17 13:11:21,777 - INFO - Querying g:Profiler for gene conversion...
+2026-03-17 13:11:22,490 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,492 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,523 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,525 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,589 - INFO - Saved outputs/entropy_box.png
+2026-03-17 13:11:22,618 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,620 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,633 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,636 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-17 13:11:22,695 - INFO - Saved outputs/cyto_entropy.png
+2026-03-17 13:11:22,778 - INFO - Saved outputs/variance.png
+2026-03-17 13:11:22,889 - INFO - Saved outputs/entropy_volcano.png
+2026-03-17 13:11:23,002 - INFO - Saved outputs/time_volcano.png
+2026-03-17 13:11:23,099 - INFO - Saved outputs/cyto_time_trends.png
+2026-03-17 13:11:23,255 - INFO - PDF report generated: outputs/entropy_report.pdf
+2026-03-17 13:11:23,255 - INFO - ==================================================
+2026-03-17 13:11:23,255 - INFO - ANALYSIS COMPLETE
+2026-03-17 13:11:23,255 - INFO - Outputs saved in /home/anirudh/yeast_aging/outputs
+2026-03-17 13:11:23,255 - INFO - Global entropy ANOVA p = 5.042e-02
+2026-03-17 13:11:23,256 - INFO - Number of significant genes (entropy DE, p<0.05): 250
+2026-03-17 13:11:23,256 - INFO - Number of significant genes (time DE, p<0.05): 1433
+2026-03-17 13:11:23,256 - INFO - Overlap of top 50 genes: 7
+2026-03-17 13:11:23,256 - INFO - Cytoskeleton gene classification:
+2026-03-17 13:11:23,256 - INFO - class
+background          17
+entropy_specific     1
+2026-03-17 13:11:23,257 - INFO - ==================================================
